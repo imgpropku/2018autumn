@@ -133,6 +133,11 @@ $x'Fx=0$
 不同位置拍摄的图片之间的变换不能直接用某种几何变换相互切换
 
 ---
+# 程序演示
+
+https://github.com/imgpropku/2018autumn/blob/master/src/geo_trans.ipynb
+
+---
 # 作业-几何变换
 - 1 实现图片的平移,缩放,旋转变换  
 - 2 以下内容选一个实现:  
