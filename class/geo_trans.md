@@ -36,21 +36,21 @@ $\begin{cases}x0=x1-tx \\\ y0=y1-ty\end{cases}$
 ---
 # 平移(接上)
 
-$\begin{bmatrix}x1 \\\ y1 \\\ 1 \end{bmatrix}=\begin{bmatrix}1 & 0 & tx & \\ 0 & 1 & ty & \\ 0 & 0 & 1 \end{bmatrix}\begin{bmatrix}x0\\ y0\\ 1 \end{bmatrix}$  
+$\begin{bmatrix}x1 \\\ y1 \\\ 1 \end{bmatrix}=\begin{bmatrix}1 & 0 & tx & \\\ 0 & 1 & ty & \\\ 0 & 0 & 1 \end{bmatrix}\begin{bmatrix}x0\\\ y0\ 1 \end{bmatrix}$  
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⬇️  
-$\begin{bmatrix}x0\\y0\\1\end{bmatrix}=\begin{bmatrix}1&0&-tx\\0&1&-ty\\0&0&1\end{bmatrix}\begin{bmatrix}x1\\y1\\1\end{bmatrix}$  
+$\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}1&0&-tx\\\ 0&1&-ty\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}$  
 
 ---
 # 缩放
 
-$\begin{cases}x1=x0* fx\\y1=y0* fy\end{cases}$  
+$\begin{cases}x1=x0* fx\\\ y1=y0* fy\end{cases}$  
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⬇️  
-$\begin{cases}x0=x1/fx\\y0=y1/fy\end{cases}$  
+$\begin{cases}x0=x1/fx\\\ y0=y1/fy\end{cases}$  
 
 ---
 # 缩放(接上)
 
-$\begin{bmatrix}x1\\y1\\1\end{bmatrix}=\begin{bmatrix}fy&0&0\\0&fy&0\\0&0&1\end{bmatrix}\begin{bmatrix}x0\\y0\\1\end{bmatrix}$  
+$\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}fy&0&0\\\ 0&fy&0\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$  
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⬇️  
 $\begin{bmatrix}x0\\y0\\1\end{bmatrix}=\begin{bmatrix}1/fx&0&0\\0&1/fy&0\\0&0&1\end{bmatrix}\begin{bmatrix}x1\\y1\\1\end{bmatrix}$
 
