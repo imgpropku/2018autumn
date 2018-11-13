@@ -63,17 +63,17 @@ $\begin{cases}x1=r* cos(b-a)=r* cosb* cosa+r* sinb* sina=x0* cosa+y0* sina\\\ y1
 
 ---
 # 旋转(接上)
-$\begin{bmatrix}x1\\y1\\1\end{bmatrix}=\begin{bmatrix}cosa&sina&0\\-sina&cosa&0\\0&0&1\end{bmatrix}\begin{bmatrix}x0\\y0\\1\end{bmatrix}$  
+$\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}cosa&sina&0\\\ -sina&cosa&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$  
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⬇️  
-$\begin{bmatrix}x0\\y0\\1\end{bmatrix}=\begin{bmatrix}cosa&-sina&0\\sina&cosa&0\\0&0&1\end{bmatrix}\begin{bmatrix}x1\\y1\\1\end{bmatrix}$  
+$\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}cosa&-sina&0\\\ sina&cosa&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}$  
 
-$\begin{bmatrix}x1\\y1\\1\end{bmatrix}=\begin{bmatrix}1&0&-a\\0&1&-b\\0&0&1\end{bmatrix}\begin{bmatrix}cosa&sina&0\\-sina&cosa&0\\0&0&1\end{bmatrix}\begin{bmatrix}1&0&a\\0&1&b\\0&0&1\end{bmatrix}\begin{bmatrix}x0\\y0\\1\end{bmatrix}$
+$\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}1&0&-a\\\ 0&1&-b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}cosa&sina&0\\\ -sina&cosa&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}1&0&a\\\ 0&1&b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 ---
 
 # 齐次坐标
-$\begin{bmatrix}x\\y\\z\end{bmatrix}=\begin{bmatrix}x/z\\y/z\\1\end{bmatrix}$  
+$\begin{bmatrix}x\\\ y\\\ z\end{bmatrix}=\begin{bmatrix}x/z\\\ y/z\\\ 1\end{bmatrix}$  
 
 可以表示无穷远点
 
