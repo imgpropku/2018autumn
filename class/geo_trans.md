@@ -36,7 +36,7 @@ $\begin{cases}x0=x1-tx \\\ y0=y1-ty\end{cases}$
 ---
 # 平移(接上)
 
-$\begin{bmatrix}x1 \\\ y1 \\\ 1 \end{bmatrix}=\begin{bmatrix}1 & 0 & tx & \\\ 0 & 1 & ty & \\\ 0 & 0 & 1 \end{bmatrix}\begin{bmatrix}x0\\\ y0\ 1 \end{bmatrix}$  
+$\begin{bmatrix}x1 \\\ y1 \\\ 1 \end{bmatrix}= \begin{bmatrix} 1 & 0 & tx \\\ 0 & 1 & ty \\\ 0 & 0 & 1 \end{bmatrix}\begin{bmatrix}x0 \\\ y0 \\\ 1 \end{bmatrix}$  
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⬇️  
 $\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}1&0&-tx\\\ 0&1&-ty\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}$  
 
