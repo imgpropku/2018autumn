@@ -50,14 +50,14 @@ $\begin{cases}x0=x1/fx\\\ y0=y1/fy\end{cases}$
 ---
 # 缩放(接上)
 
-$\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}fy&0&0\\\ 0&fy&0\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$  
+$\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}fy&0&0\\\ 0&fy&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$  
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⬇️  
-$\begin{bmatrix}x0\\y0\\1\end{bmatrix}=\begin{bmatrix}1/fx&0&0\\0&1/fy&0\\0&0&1\end{bmatrix}\begin{bmatrix}x1\\y1\\1\end{bmatrix}$
+$\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}1/fx&0&0\\\ 0&1/fy&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}$
 
 ---
 # 旋转
-$\begin{cases}x0=r* cosb\\y0=r* sinb\end{cases}$  
-$\begin{cases}x1=r* cos(b-a)=r* cosb* cosa+r* sinb* sina=x0* cosa+y0* sina\\y1=r* sin(b-a)=r* sinb* cosa-r* cosb* sina=-x0* sina+y0* cosa\end{cases}$  
+$\begin{cases}x0=r* cosb\\\ y0=r* sinb\end{cases}$  
+$\begin{cases}x1=r* cos(b-a)=r* cosb* cosa+r* sinb* sina=x0* cosa+y0* sina\\\ y1=r* sin(b-a)=r* sinb* cosa-r* cosb* sina=-x0* sina+y0* cosa\end{cases}$  
 
 ![](figures/rotate.png)
 
