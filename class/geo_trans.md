@@ -10,6 +10,12 @@
 2018年11月
 
 ---
+# 关于本讲义
+
+如果你在github上查看不了公式,建议使用chrome浏览器的GitHub with MathJax插件  
+https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima?hl=en
+
+---
 # 几何变换
 - 平移
 - 缩放
