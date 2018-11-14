@@ -97,11 +97,13 @@ $\begin{bmatrix}x0* z\\\ y0* z\\\ z\end{bmatrix}=\begin{bmatrix}a&b&c\\\ d&e&f\\
 
 
 ---
+
 ![](figures/affine.png)
 
 
 ---
-![](figures/homography.png)
+
+![](figures/homography.PNG)
 
 
 ---
