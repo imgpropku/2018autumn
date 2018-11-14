@@ -174,7 +174,7 @@ https://github.com/imgpropku/2018autumn/blob/master/src/geo_trans.ipynb
   - 请直接从底层的数组操作实现各种算法,不要调用pillow,opencv或matlab中的高级函数  
   - 请尽量保证完成的程序有较好的可移植性,即我下载了可以直接运行~  
 
-请于下下周三(11月21日)10:00前提交至  cuijialiang@pku.edu.cn
+请于下周三(11月21日)10:00前提交至  cuijialiang@pku.edu.cn
 
 ---
 # 推荐阅读的资料 & 本文参考文献
