@@ -62,6 +62,7 @@ $\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}1/fx&0&0\\\ 0&1/fy&0\\
 
 ---
 # 旋转
+以原点为中心的旋转
 $\begin{cases}x0=r* cosb\\\ y0=r* sinb\end{cases}$  
 $\begin{cases}x1=r* cos(b-a)=r* cosb* cosa+r* sinb* sina=x0* cosa+y0* sina\\\ y1=r* sin(b-a)=r* sinb* cosa-r* cosb* sina=-x0* sina+y0* cosa\end{cases}$  
 
@@ -73,6 +74,9 @@ $\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}cosa&sina&0\\\ -sina&c
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⬇️  
 $\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}cosa&-sina&0\\\ sina&cosa&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}$  
 
+---
+# 旋转(接上)  
+如果旋转点不在原点
 $\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}1&0&-a\\\ 0&1&-b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}cosa&sina&0\\\ -sina&cosa&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}1&0&a\\\ 0&1&b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -85,9 +89,25 @@ $\begin{bmatrix}x\\\ y\\\ z\end{bmatrix}=\begin{bmatrix}x/z\\\ y/z\\\ 1\end{bmat
 
 
 ---
+# 仿射变换与单应性变换(homography)  
+仿射变换  
+$\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}a&b&c\\\ d&e&f\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}$  
+单应性变换  
+$\begin{bmatrix}x0* z\\\ y0* z\\\ z\end{bmatrix}=\begin{bmatrix}a&b&c\\\ d&e&f\\\ g&h&1\end{bmatrix}\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}$  
+
+
+---
+![](figures/affine.png)
+
+
+---
+![](figures/homography.png)
+
+
+---
 # 单应性变换(homography)
-![](https://docs.opencv.org/3.4.1/homography_transformation_example3.jpg)  
-![](https://docs.opencv.org/3.4.1/homography_perspective_correction.jpg)  
+![120%](https://docs.opencv.org/3.4.1/homography_transformation_example3.jpg)  
+![](https://docs.opencv.org/3.4.1/homography_perspective_correction.jpg)
 
 
 ---
@@ -98,7 +118,7 @@ $\begin{bmatrix}x\\\ y\\\ z\end{bmatrix}=\begin{bmatrix}x/z\\\ y/z\\\ 1\end{bmat
 # 双线性插值(接上)
 ## $(x,y)$点的灰度值$f(x,y)$:  
 
-$\small f(x,y)=(b+1-1)f(x,b)+(y-b)f(x,b+1)$
+$\small f(x,y)=(b+1-y)f(x,b)+(y-b)f(x,b+1)$
 
 ## 其中
 
@@ -117,7 +137,7 @@ $x'$和$x$都是齐次坐标
 $F$是一个3x3的矩阵,与  
  - 相机参数(焦距,感光器比例尺等)
  - 两架相机的相对位置(平移,旋转)
-
+	
 有关
 
 ---
@@ -157,7 +177,8 @@ https://github.com/imgpropku/2018autumn/blob/master/src/geo_trans.ipynb
 ---
 # 推荐阅读的资料 & 本文参考文献
 - https://en.wikipedia.org/wiki/Homogeneous_coordinates 齐次坐标(推荐)  
-- http://www.corrmap.com/features/homography_transformation.php 单应性变换(推荐)  
+- http://www.corrmap.com/features/homography_transformation.php 单应性变换(推荐) 
+- https://docs.opencv.org/3.4.1/d9/dab/tutorial_homography.html 单应性变换 opencv 
 - https://en.wikipedia.org/wiki/Multivariate_interpolation 插值方法  
 
 ---
