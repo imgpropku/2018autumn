@@ -77,7 +77,7 @@ $\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}=\begin{bmatrix}cosa&-sina&0\\\ sina&c
 ---
 # 旋转(接上)  
 如果旋转点不在原点
-$\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}1&0&-a\\\ 0&1&-b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}cosa&sina&0\\\ -sina&cosa&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}1&0&a\\\ 0&1&b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$
+$\begin{bmatrix}x1\\\ y1\\\ 1\end{bmatrix}=\begin{bmatrix}1&0&a\\\ 0&1&b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}cosa&sina&0\\\ -sina&cosa&0\\\ 0&0&1\end{bmatrix}\begin{bmatrix}1&0&-a\\\ 0&1&-b\\\ 0&0&1\end{bmatrix}\begin{bmatrix}x0\\\ y0\\\ 1\end{bmatrix}$
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 ---
