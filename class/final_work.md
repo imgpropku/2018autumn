@@ -18,7 +18,7 @@ TIPS:
 ![](figures/img_pixel_classifation.png)
 
 TIPS:
-- 像素级别分类(并不是整张图像分类)
+- 像素级别分类(并不是整张图像打一个标签)
 
 # 可供选题4-图像分割
 ![](figures/seg.png)
